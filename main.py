@@ -63,6 +63,7 @@ def post_news(news_text):
     except Exception as e:
         print(f"Ошибка: {e}")
 
+# 🔹 ТОЧНО исправлено для Python
 if name == "__main__":
     sample_news = "Россия и мир: новые события в политике и экономике."
     post_news(sample_news)
